@@ -1,0 +1,31 @@
+2020-11-28 10:44:40,941 - INFO - thread started, start data transmission with server
+2020-11-28 10:45:05,231 - INFO - from connected user ('192.168.1.18', 6420):  
+2020-11-28 10:45:05,231 - INFO - Close connection user ('192.168.1.18', 6420)
+2020-11-28 10:45:07,294 - INFO - thread started, start data transmission with server
+2020-11-28 10:45:16,166 - INFO - from connected user ('192.168.1.18', 6426):  smartlab,info3
+2020-11-28 10:45:16,167 - INFO - from connected user ('192.168.1.18', 6426):  valid data
+2020-11-28 10:45:16,168 - INFO - SELECT percorsi.percorso FROM percorsi WHERE percorsi.id = (SELECT inizio_fine.id_percorso FROM inizio_fine WHERE inizio_fine.id_end = (SELECT luoghi.id FROM luoghi WHERE luoghi.nome = "smartlab") AND inizio_fine.id_start = (SELECT luoghi.id FROM luoghi WHERE luoghi.nome = "info3"));
+2020-11-28 10:45:16,172 - INFO - Risultato query: B50R90F600L90F400
+2020-11-28 10:45:16,172 - INFO - For the connected user ('192.168.1.18', 6426):  0.0,B50R90F600L90F400
+2020-11-28 10:45:38,034 - INFO - from connected user ('192.168.1.18', 6426):  smartlab,info2
+2020-11-28 10:45:38,034 - INFO - from connected user ('192.168.1.18', 6426):  valid data
+2020-11-28 10:45:38,035 - INFO - SELECT percorsi.percorso FROM percorsi WHERE percorsi.id = (SELECT inizio_fine.id_percorso FROM inizio_fine WHERE inizio_fine.id_end = (SELECT luoghi.id FROM luoghi WHERE luoghi.nome = "smartlab") AND inizio_fine.id_start = (SELECT luoghi.id FROM luoghi WHERE luoghi.nome = "info2"));
+2020-11-28 10:45:38,035 - ERROR - 1.1, from connected user ('192.168.1.18', 6426) path not found re-enter end,start
+2020-11-28 10:45:51,892 - INFO - from connected user ('192.168.1.18', 6426):  info2,smartlab
+2020-11-28 10:45:51,893 - INFO - from connected user ('192.168.1.18', 6426):  valid data
+2020-11-28 10:45:51,893 - INFO - SELECT percorsi.percorso FROM percorsi WHERE percorsi.id = (SELECT inizio_fine.id_percorso FROM inizio_fine WHERE inizio_fine.id_end = (SELECT luoghi.id FROM luoghi WHERE luoghi.nome = "info2") AND inizio_fine.id_start = (SELECT luoghi.id FROM luoghi WHERE luoghi.nome = "smartlab"));
+2020-11-28 10:45:51,894 - ERROR - 1.1, from connected user ('192.168.1.18', 6426) path not found re-enter end,start
+2020-11-28 10:46:03,373 - INFO - from connected user ('192.168.1.18', 6426):  info2,aula3.0
+2020-11-28 10:46:03,374 - INFO - from connected user ('192.168.1.18', 6426):  valid data
+2020-11-28 10:46:03,374 - INFO - SELECT percorsi.percorso FROM percorsi WHERE percorsi.id = (SELECT inizio_fine.id_percorso FROM inizio_fine WHERE inizio_fine.id_end = (SELECT luoghi.id FROM luoghi WHERE luoghi.nome = "info2") AND inizio_fine.id_start = (SELECT luoghi.id FROM luoghi WHERE luoghi.nome = "aula3.0"));
+2020-11-28 10:46:03,375 - ERROR - 1.1, from connected user ('192.168.1.18', 6426) path not found re-enter end,start
+2020-11-28 10:48:44,211 - INFO - from connected user ('192.168.1.18', 6426):  info1,aula3.0
+2020-11-28 10:48:44,211 - INFO - from connected user ('192.168.1.18', 6426):  valid data
+2020-11-28 10:48:44,211 - INFO - SELECT percorsi.percorso FROM percorsi WHERE percorsi.id = (SELECT inizio_fine.id_percorso FROM inizio_fine WHERE inizio_fine.id_end = (SELECT luoghi.id FROM luoghi WHERE luoghi.nome = "info1") AND inizio_fine.id_start = (SELECT luoghi.id FROM luoghi WHERE luoghi.nome = "aula3.0"));
+2020-11-28 10:48:44,212 - INFO - Risultato query: F100L90F500R45F200R45B100
+2020-11-28 10:48:44,212 - INFO - For the connected user ('192.168.1.18', 6426):  0.0,F100L90F500R45F200R45B100
+2020-11-28 10:49:24,136 - INFO - from connected user ('192.168.1.18', 6426):  info3,aula3.0
+2020-11-28 10:49:24,136 - INFO - from connected user ('192.168.1.18', 6426):  valid data
+2020-11-28 10:49:24,137 - INFO - SELECT percorsi.percorso FROM percorsi WHERE percorsi.id = (SELECT inizio_fine.id_percorso FROM inizio_fine WHERE inizio_fine.id_end = (SELECT luoghi.id FROM luoghi WHERE luoghi.nome = "info3") AND inizio_fine.id_start = (SELECT luoghi.id FROM luoghi WHERE luoghi.nome = "aula3.0"));
+2020-11-28 10:49:24,137 - INFO - Risultato query: F100L45F800
+2020-11-28 10:49:24,138 - INFO - For the connected user ('192.168.1.18', 6426):  0.0,F100L45F800

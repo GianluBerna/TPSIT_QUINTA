@@ -1,0 +1,9 @@
+2020-11-14 11:14:08,445 - INFO - Inizio ricezione/elaborazione dati
+2020-11-14 11:14:08,445 - ERROR - 4.1, generic error - I try the connection again - n.0
+2020-11-14 11:14:08,446 - ERROR - 4.1, generic error - I try the connection again - n.1
+2020-11-14 11:14:08,446 - ERROR - 4.1, generic error - I try the connection again - n.2
+2020-11-14 11:14:08,447 - ERROR - 4.1, generic error - I try the connection again - n.3
+2020-11-14 11:14:08,447 - ERROR - 4.1, generic error - I try the connection again - n.4
+2020-11-14 11:14:08,447 - ERROR - 4.1, generic error - database connection failed
+2020-11-14 11:14:16,742 - INFO - from connected user ('192.168.178.33', 14471):  smart,lab
+2020-11-14 11:14:16,742 - ERROR - 4.1, server closing - database not found

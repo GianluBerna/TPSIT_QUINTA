@@ -1,0 +1,21 @@
+2020-11-28 11:19:31,431 - INFO - thread started, start data transmission with server
+2020-11-28 11:19:39,746 - INFO - from connected user ('192.168.1.18', 6653):  
+2020-11-28 11:19:39,747 - INFO - Close connection user ('192.168.1.18', 6653)
+2020-11-28 11:20:56,305 - INFO - thread started, start data transmission with server
+2020-11-28 11:21:04,603 - INFO - from connected user ('192.168.1.18', 6676):  info1,aula3.0
+2020-11-28 11:21:04,604 - INFO - from connected user ('192.168.1.18', 6676):  valid data
+2020-11-28 11:21:04,605 - INFO - SELECT percorsi.percorso FROM percorsi WHERE percorsi.id = (SELECT inizio_fine.id_percorso FROM inizio_fine WHERE inizio_fine.id_end = (SELECT luoghi.id FROM luoghi WHERE luoghi.nome = "info1") AND inizio_fine.id_start = (SELECT luoghi.id FROM luoghi WHERE luoghi.nome = "aula3.0"));
+2020-11-28 11:21:04,635 - INFO - Risultato query: F100L90F500R45F200R45B100
+2020-11-28 11:21:04,636 - INFO - For the connected user ('192.168.1.18', 6676):  0.0,F100L90F500R45F200R45B100
+2020-11-28 11:21:39,438 - INFO - from connected user ('192.168.1.18', 6676):  info3,aula3.0
+2020-11-28 11:21:39,439 - INFO - from connected user ('192.168.1.18', 6676):  valid data
+2020-11-28 11:21:39,439 - INFO - SELECT percorsi.percorso FROM percorsi WHERE percorsi.id = (SELECT inizio_fine.id_percorso FROM inizio_fine WHERE inizio_fine.id_end = (SELECT luoghi.id FROM luoghi WHERE luoghi.nome = "info3") AND inizio_fine.id_start = (SELECT luoghi.id FROM luoghi WHERE luoghi.nome = "aula3.0"));
+2020-11-28 11:21:39,440 - INFO - Risultato query: F100L45F800
+2020-11-28 11:21:39,440 - INFO - For the connected user ('192.168.1.18', 6676):  0.0,F100L45F800
+2020-11-28 11:22:00,201 - INFO - from connected user ('192.168.1.18', 6676):  info3,aula3.0
+2020-11-28 11:22:00,202 - INFO - from connected user ('192.168.1.18', 6676):  valid data
+2020-11-28 11:22:00,202 - INFO - SELECT percorsi.percorso FROM percorsi WHERE percorsi.id = (SELECT inizio_fine.id_percorso FROM inizio_fine WHERE inizio_fine.id_end = (SELECT luoghi.id FROM luoghi WHERE luoghi.nome = "info3") AND inizio_fine.id_start = (SELECT luoghi.id FROM luoghi WHERE luoghi.nome = "aula3.0"));
+2020-11-28 11:22:00,203 - INFO - Risultato query: F100L45F800
+2020-11-28 11:22:00,204 - INFO - For the connected user ('192.168.1.18', 6676):  0.0,F100L45F800
+2020-11-28 11:22:00,251 - INFO - from connected user ('192.168.1.18', 6676):  
+2020-11-28 11:22:00,251 - INFO - Close connection user ('192.168.1.18', 6676)

@@ -1,0 +1,8 @@
+2020-11-14 11:07:59,318 - INFO - Inizio ricezione/elaborazione dati
+2020-11-14 11:07:59,319 - ERROR - 4.1, generic error - I try the connection again - n.0
+2020-11-14 11:07:59,320 - ERROR - 4.1, generic error - I try the connection again - n.1
+2020-11-14 11:07:59,320 - ERROR - 4.1, generic error - I try the connection again - n.2
+2020-11-14 11:07:59,321 - ERROR - 4.1, generic error - I try the connection again - n.3
+2020-11-14 11:07:59,321 - ERROR - 4.1, generic error - I try the connection again - n.4
+2020-11-14 11:07:59,322 - ERROR - 4.1, generic error - database connection failed
+2020-11-14 11:07:59,322 - INFO - Close connection user ('192.168.178.33', 14421)

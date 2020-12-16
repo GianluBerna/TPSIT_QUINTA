@@ -1,0 +1,9 @@
+2020-11-14 11:15:11,782 - INFO - Inizio ricezione/elaborazione dati
+2020-11-14 11:15:11,783 - ERROR - 4.1, generic error - I try the connection again - n.0
+2020-11-14 11:15:11,783 - ERROR - 4.1, generic error - I try the connection again - n.1
+2020-11-14 11:15:11,783 - ERROR - 4.1, generic error - I try the connection again - n.2
+2020-11-14 11:15:11,784 - ERROR - 4.1, generic error - I try the connection again - n.3
+2020-11-14 11:15:11,784 - ERROR - 4.1, generic error - I try the connection again - n.4
+2020-11-14 11:15:11,784 - ERROR - 4.1, generic error - database connection failed
+2020-11-14 11:15:11,785 - INFO - Close connection user ('192.168.178.33', 14475)
+2020-11-14 11:15:11,785 - ERROR - 4.1, server closing - database not found

@@ -1,0 +1,8 @@
+2020-11-14 10:55:12,514 - INFO - Inizio ricezione/elaborazione dati
+2020-11-14 10:55:21,022 - INFO - from connected user ('192.168.178.33', 14338):  smartlab,info3
+2020-11-14 10:55:21,022 - INFO - from connected user ('192.168.178.33', 14338):  valid data
+2020-11-14 10:55:21,022 - INFO - SELECT percorsi.percorso FROM percorsi WHERE percorsi.id = (SELECT inizio_fine.id_percorso FROM inizio_fine WHERE inizio_fine.id_end = (SELECT luoghi.id FROM luoghi WHERE luoghi.nome = "smartlab") AND inizio_fine.id_start = (SELECT luoghi.id FROM luoghi WHERE luoghi.nome = "info3"));
+2020-11-14 10:55:21,023 - INFO - Risultato query: B50R90F600L90F400
+2020-11-14 10:55:21,023 - INFO - For the connected user ('192.168.178.33', 14338):  0.0,B50R90F600L90F400
+2020-11-14 10:55:37,537 - INFO - from connected user ('192.168.178.33', 14338):  
+2020-11-14 10:55:37,537 - INFO - Close connection user ('192.168.178.33', 14338)

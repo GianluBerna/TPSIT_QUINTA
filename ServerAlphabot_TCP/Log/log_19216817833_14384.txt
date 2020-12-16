@@ -1,0 +1,7 @@
+2020-11-14 11:03:30,893 - INFO - Inizio ricezione/elaborazione dati
+2020-11-14 11:03:30,894 - ERROR - 4.1, generic error - I try the connection again - n.0
+2020-11-14 11:03:30,894 - ERROR - 4.1, generic error - I try the connection again - n.1
+2020-11-14 11:03:30,894 - ERROR - 4.1, generic error - I try the connection again - n.2
+2020-11-14 11:03:30,895 - ERROR - 4.1, generic error - I try the connection again - n.3
+2020-11-14 11:03:30,895 - ERROR - 4.1, generic error - I try the connection again - n.4
+2020-11-14 11:03:30,895 - ERROR - 4.1, generic error - database connection failed
