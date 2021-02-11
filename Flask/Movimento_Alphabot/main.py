@@ -4,7 +4,7 @@ alphabot=AlphaBot()
 alphabot.stop()
 app = Flask(__name__)
 
-@app.route("/", methods = ['GET', 'POST'])
+@app.route("/", methods = ['GET', 'POST'])          #decoratore
 def index():
 
     if request.method == 'POST':
