@@ -3,7 +3,7 @@ import sqlite3
 app = Flask(__name__)
 
 
-@app.route('/', methods = ['GET', 'POST'])
+@app.route('/', methods = ['GET', 'POST'])        #decoratore
 def index():
     error = None
     if request.method == 'POST':
